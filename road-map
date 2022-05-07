@@ -1,0 +1,14 @@
+
+# Migrating from ec2 to ecs
+# network, data source (terraform remote state )
+# load sunet_id(public)
+# route 53, certi module
+# security group
+# aurora module (ENVIR=db_name, db_endpoint, db_port, db_password, )
+# secrets_manager(db_endpoint, point, db_name, db_username(secret_version)).
+# data source to pull down db_endpoint,......
+### NEW STUFFS
+# create ecs service.. 
+# create cloud watch ().
+# LEVERAGE auto with ecs.
+# container defination(task definition).
